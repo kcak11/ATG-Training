@@ -1,0 +1,18 @@
+1. using OOTB components as it is.
+ForEach, Switch 
+
+2. Re-configuring the OOTB component with our own values.
+SMTPEmail, JTDataSource, DirectJTDataSource, FakeXADataSource
+
+3. using the OOTB class and make it into our own component.
+GSARepository, ItemLookupDroplet
+
+4. Creating our own custom classes extending the OOTB base classes
+FactorialDroplet, Custom FormHandler
+
+5. Extending the OOTB classes and providing custom logic in specific hook methods
+Extending FormHandlers
+
+6. Creating Custom classes implementing OOTB Interfaces
+
+7. Creating our own custom classes for logic not at all identified in ATG 

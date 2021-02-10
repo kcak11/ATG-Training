@@ -1,0 +1,24 @@
+to test your repository the command is 
+
+C:\AE102\ATG10.2\home\bin>startSQLRepository 
+-m TestDynamusic 
+-repository /dynamusic/EmpRepository 
+
+-outputSQL
+
+to export the data
+
+C:\AE102\ATG10.2\home\bin>startSQLRepository 
+-m TestDynamusic 
+-repository /dynamusic/EmpRepository 
+-export all C:\empAll.xml
+
+
+to import  the data
+
+C:\AE102\ATG10.2\home\bin>startSQLRepository 
+-m TestDynamusic 
+-repository /dynamusic/EmpRepository 
+-import  C:\empAll.xml
+
+

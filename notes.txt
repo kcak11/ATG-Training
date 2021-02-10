@@ -1,0 +1,57 @@
+ATG: Art Technology Group
+DAS: Dynamo Application Server
+DAF: Dynamo Application Framework
+DSS: ATG Scenarios Module - Dynamo Scenario Server
+CAS: Content Acquisition System
+DAA: Data Anywhere Architecture
+DPS: ATG Personalization Module - Dynamo Personalization Server
+DCS: Dynamo Commerce Server
+DCC: Dynamo Control Center
+
+
+1. Personalization: right content to the right people at right time via right channel
+2. Portal: Content Aggregation
+3. Nucleus: Container in ATG Terminology
+
+assembler command:
+
+C:\AE102\ATG10.2\home\bin>runAssembler -run-in-place C:\AE102\WeblogicApps\foundations.ear -m DafEar.Admin Dynamusic
+
+4. Component:
+    $class=FQCN of Java Class
+    $scopes: request session global window prototype
+
+IMPORTANT: Start MySql before beginning exercises everyday.
+
+5. /atg/dynamo/service/jdbc/JTDataSource
+
+6. C:\AE102\ATG10.2\home\bin>startSQLRepository -m TestDynamusic -repository /dynamusic/EmpRepository -outputSQL
+
+******************************
+******************************
+to test your repository the command is 
+
+C:\AE102\ATG10.2\home\bin>startSQLRepository 
+-m TestDynamusic 
+-repository /dynamusic/EmpRepository 
+
+-outputSQL
+
+to export the data
+
+C:\AE102\ATG10.2\home\bin>startSQLRepository 
+-m TestDynamusic 
+-repository /dynamusic/EmpRepository 
+-export all C:\empAll.xml
+
+
+to import  the data
+
+C:\AE102\ATG10.2\home\bin>startSQLRepository 
+-m TestDynamusic 
+-repository /dynamusic/EmpRepository 
+-import  C:\empAll.xml
+
+******************************
+******************************
+
